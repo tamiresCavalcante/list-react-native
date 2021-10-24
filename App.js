@@ -35,7 +35,8 @@ export default class App extends Component{
     return(
       <SafeAreaView style={styles.container}>
 
-        <FlatList 
+        <FlatList
+        //horizontal 
           data={this.state.filmes}
           keyExtractor={(item) => item.id}
           renderItem={({item}) =>
