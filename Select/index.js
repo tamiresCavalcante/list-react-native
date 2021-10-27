@@ -11,7 +11,10 @@ import Icon from 'react-native-vector-icons/dist/MaterialCommunityIcons';
 const Select = ({options, onChangeSelect}) => {
     return (
         <View>
-            <TouchableOpacity style={styles.container} />
+            <TouchableOpacity style={styles.container}>
+                <Text></Text>
+                <Icon name={"chevron-down"} />
+            </TouchableOpacity>
         </View>
     )    
 };
