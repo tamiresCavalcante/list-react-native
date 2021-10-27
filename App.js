@@ -15,18 +15,19 @@ export default class App extends Component{
     super(props);
     this.state = {
       filmes: [
-        {id: '1', nome: 'Homem Aranha'},
-        {id: '2', nome: 'As panteras'},
-        {id: '3', nome: 'Os Vingadores'},
-        {id: '4', nome: 'Homem de Ferro'},
-        {id: '5', nome: 'Halloween'},
-        {id: '6', nome: 'Os Eternos'},
-        {id: '7', nome: 'Viuva negra'},
-        {id: '8', nome: 'Thor'},
-        {id: '9', nome: 'Amnésia'},
-        {id: '10', nome: 'Homem Formiga'},
-        {id: '11', nome: 'Coringa'},
-        {id: '12', nome: 'Ultimato'},
+        {id: 'W150X13', 
+        kgm: '13', 
+        d: '148', 
+        tw: '4.3', 
+        tf: '4.9', 
+        h: '138'},
+        {id: 'W150X18', 
+        kgm: '18', 
+        d: '153', 
+        tw: '5.8', 
+        tf: '6,6', 
+        h: '139'},
+        
       ]
     }
   }

@@ -5,7 +5,7 @@ export default class Filme extends Component{
     render(){
         return(
             <View style={styles.containerFilmes}>
-                <Text style={styles.titleFilmes}>{this.props.data.nome}</Text>
+                <Text style={styles.titleFilmes}>{this.props.data.id}</Text>
             </View>
         )
     }
