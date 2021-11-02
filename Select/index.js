@@ -21,11 +21,11 @@ const Select = ({options, onChangeSelect, text, label}) => {
             <TouchableOpacity style={[styles.optionContainer, {backgroundColor: item.id == selected ? '#d8bfd8' : '#eee'}]} 
             onPress={() => {
                 onChangeSelect(item.id);
-                setTxt(item.name);
+                setTxt(item.bitola);
                 setModalVisible(false);
                 setSelected(item.id);
             }}>
-               <Text style={styles.optionTxt}>{item.name}</Text>
+               <Text style={styles.optionTxt}>{item.bitola}</Text>
                {item.id == selected && (<Icon name={'check'} size={18} color={'green'} />)} 
             </TouchableOpacity>
         );       
@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         flexDirection: 'row',
         justifyContent: 'center',
-        borderBottomColor: '#eee',
+        borderBottomColor: '#87cefa',
         borderBottomWidth: 2,
         padding: 10,
         //backgroundColor: '#d3d3d3',
